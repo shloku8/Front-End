@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		CSS Tutorial 
+	</title>
+	<link href="Assignment2.css" rel="stylesheet" type="text/css">
+	<style>
+	   div{
+	   	   background-color:lightgrey; 
+	   	   padding:10px;
+	   	   padding-left:20px;
+	   	   padding-right:20px;
+            border-radius:5px;  
+	      }	
+	</style>
+</head>
+<body style="font-family:Arial;">
+   <h1 align="center">Welcome</h1>
+   <h3 style="font-style:italic;">Understanding CSS</h3>
+   <p style="background-color:lightblue; padding:10px; padding-left:20px; padding-right:20px; border-radius:5px;">CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once External style sheets are stored in CSS files.</p>
+   <h3> Ways we can apply CSS</h3>
+   <ul>
+      <li>Style tag</li>
+         <div>One way to include CSS into your HTML is style tags which do require a closing tag. This is referred to as internal styling. The style tags allow you to type CSS between them. These can be put anywhere on your page but it's best practise is to put them above your content or in the head tag.</div>
+      <br>
+      <li>link tag</li>
+         <div class="color">The link tag is the most common way to include an entire CSS file into your HTML page. This is called using an external style sheet. The tag does not require a closing tag. This tag should be put in the tags on your page.</div>
+      <br>
+      <li>inline style attribute</li>
+      <div style="background-color:lightgrey; padding:10px; padding-left:20px; padding-right:20px; border-radius:5px;">You can include a style argument on most HTML tags. This allows you to style that individual tag similar to an id. Syntax for inline is
+      <br>style="property:value;property:value;property:value;"</div>	
+   </ul>
+   <h3>CSS Syntax</h3>
+   <div style="padding-top:10px">Selector{</div>
+   <div>property:value;</div>
+   <div>property:value;</div>
+   <div style="padding-bottom:10px;">}</div>  
+   <h3 align="left">Selectors </h3>
+   <div class="alert alert-dark" role="alert">
+     <p>In CSS, selectors are patterns used to select the element(s) you want to style.
+
+Use our CSS Selector Tester to demonstrate the different selectors.</p> 
+
+</div>
+<h3 align="left">Four Main Types Of Selectors </h3>
+<ul>
+   <li>Class</li>
+   <div class="alert alert-dark" role="alert">
+
+     <p>The .class selector selects elements with a specific class attribute.
+
+To select elements with a specific class, write a period (.) character, followed by the name of the class.
+
+You can also specify that only specific HTML elements should be affected by a class. To do this, start with the element name, then write the period (.) character, followed by the name of the class</p>
+</div>
+<li>Id</li>
+   <div class="alert alert-dark" role="alert">
+      <p>The #id selector styles the element with the specified id.</p>
+
+</div>
+<li>Universal</li>
+   <div class="alert alert-dark" role="alert">
+     <p>The * selector selects all elements.
+
+The * selector can also select all elements inside another elemen</p>
+</div>
+<li>Element</li>
+   <div class="alert alert-dark" role="alert">
+     <p>The element selector selects all elements with the specified element name.</p>
+     </div>
+ </ul>
+ <h3 align="left">Box Model</h3>
+ <div class="alert alert-dark" role="alert">
+  <P>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout.
+
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:</P>
+</div>
+<br>
+<img src="C:\Users\taher r\Desktop\Shlok(91)\box-model.jpg" alt="box model" height="400" width="450">
+</body>
+</html>
