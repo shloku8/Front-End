@@ -28,19 +28,4 @@ switch(e)
 	break;
 	default:console.log("Default");
 }
-function factorial(num)
-{
-	if(num==0)
-      {
-      	return(0);
-      }
-    if(num==1)
-    {
-    	return(1);
-    }
-    while(num!=0)
-    { 
-	return(num*num-1);
-	num--;
-	} 
-}
+
