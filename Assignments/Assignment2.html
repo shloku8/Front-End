@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		CSS Tutorial 
+	</title>
+	<link href="Assignment2.css" rel="stylesheet" type="text/css">
+	<style>
+	   div{
+	   	   background-color:lightgrey; 
+	   	   padding:10px;
+	   	   padding-left:20px;
+	   	   padding-right:20px;
+            border-radius:5px;  
+	      }	
+	</style>
+</head>
+<body style="font-family:Arial;">
+   <h1 align="center">Welcome</h1>
+   <h3 style="font-style:italic;">Understanding CSS</h3>
+   <p style="background-color:lightblue; padding:10px; padding-left:20px; padding-right:20px; border-radius:5px;">CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once External style sheets are stored in CSS files.</p>
+   <h3> Ways we can apply CSS</h3>
+   <ul>
+      <li>Style tag</li>
+         <div>One way to include CSS into your HTML is style tags which do require a closing tag. This is referred to as internal styling. The style tags allow you to type CSS between them. These can be put anywhere on your page but it's best practise is to put them above your content or in the head tag.</div>
+      <br>
+      <li>link tag</li>
+         <div class="color">The link tag is the most common way to include an entire CSS file into your HTML page. This is called using an external style sheet. The tag does not require a closing tag. This tag should be put in the tags on your page.</div>
+      <br>
+      <li>inline style attribute</li>
+      <div style="background-color:lightgrey; padding:10px; padding-left:20px; padding-right:20px; border-radius:5px;">You can include a style argument on most HTML tags. This allows you to style that individual tag similar to an id. Syntax for inline is
+      <br>style="property:value;property:value;property:value;"</div>	
+   </ul>
+   <h3>CSS Syntax</h3>
+   <div style="padding-top:10px">Selector{</div>
+   <div>property:value;</div>
+   <div>property:value;</div>
+   <div style="padding-bottom:10px;">}</div>  
+</body>
+</html>
